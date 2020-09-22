@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <ul id="menu">
     <li>
         <a href="index.html"> home</a>
     </li>
@@ -15,10 +17,15 @@
     <li>
         <a href="contato.html"> contato</a>
     </li>
-    <h1>Chama no direct </h1>
-    <p>No momento estou a procura do $$, assim que possível retornaremos o contato</p>
+</ul>
 
+<h1 class="center">Chama no direct </h1>
+    <p class="center">No momento estou a procura do $$, assim que possível retornaremos o contato</p>
+
+    <div class="container">
+        <div>
     <form >
+        <h2>Mande sua Mensagem:</h2>
         <label for="nome"> Nome:</label><br>
         <input type="text" id="nome">
         <br>
@@ -28,14 +35,17 @@
         <br>
         <br>
         <label for="assunto"> Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="50" rows="10"></textarea>
+        <textarea name="assunto" id="assunto" cols="40" rows="10"></textarea>
         <br>
         <br>
         <button>enviar</button>
-    </form>
-    <h2>Endereço:</h2>
-    <p>Avenida Paulista, 1000 - Bela Vista</p>
-    <p>São Paulo - SP</p>
+    </form>   
+</div>
+
+<div class="ml-50">
+    <h2 class="center">Endereço:</h2>
+    <p class="center">Avenida Paulista, 1000 - Bela Vista</p>
+    <p class="center">São Paulo - SP</p>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106559408916!2d-46.65390548507052!3d-23.564616084681294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1600728959422!5m2!1spt-BR!2sbr"
      width="450"
@@ -45,5 +55,27 @@
          allowfullscreen="" 
          aria-hidden="false"
           tabindex="0"></iframe>
+</div>
+</div>
+<hr>
+<footer class="center">
+
+    <div class="container mb-50" >
+        <a href="https://pt-br.facebook.com/" target="_blank">
+            <img class ="tm-social pp " src="assets/img/facebook.png" alt="logo do facebook" >  
+        </a>
+        <a href="https://www.instagram.com/?hl=pt-br"target="_blank"> 
+            <img class =  "tm-social pp "  src="assets/img/instagram.png" alt="logo do instagram">  
+        </a>
+        <a href="https://www.youtube.com/"target="_blank">
+            <img class=  "tm-social pp" src="assets/img/youtube.png" alt="logo do youtube">
+        </a>
+    
+    </div>
+    <p>
+        Todos os direitos reservados: Lucas Noe &copy;
+    </p>
+</footer>
+  
 </body>
 </html>
